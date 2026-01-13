@@ -1,0 +1,34 @@
+{
+  "algo": "DDPG",
+  "env": "Box2D",
+  "env_id": "BipedalWalker-v3",
+  "dl_toolbox": "torch",
+  "device": "cuda:0",
+  "seed": 5,
+  "xuance_version": "v1.3.3",
+  "benchmark": {
+    "running_steps": 2000000,
+    "eval_interval": 10000,
+    "test_episodes": 3
+  },
+  "system_info": {
+    "Platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+    "CUDA_Available": true,
+    "Python": "3.11.13",
+    "XuanCe": "v1.3.3",
+    "PyTorch": "2.7.1+cu126",
+    "PID": 2228282,
+    "Rank": 0,
+    "device": "cuda:0",
+    "gpu_index": 0,
+    "gpu_name": "NVIDIA GeForce RTX 4090",
+    "cuda_version": "12.6",
+    "gpu_capability": "8.9"
+  },
+  "timestamps": {
+    "start_time": "2026-01-12T00:29:20.300165+08:00",
+    "best_model_time": "2026-01-12T01:15:32.988620+08:00",
+    "end_time": "2026-01-12T01:41:16.159381+08:00",
+    "elapsed_seconds": 4315.859
+  }
+}
