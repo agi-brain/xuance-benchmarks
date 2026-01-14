@@ -5,19 +5,19 @@
   "dl_toolbox": "torch",
   "device": "cuda:0",
   "seed": 3,
-  "xuance_version": "v1.3.3",
+  "xuance_version": "v1.4.0",
   "benchmark": {
-    "running_steps": 300000,
-    "eval_interval": 50000,
+    "running_steps": 2000000,
+    "eval_interval": 10000,
     "test_episodes": 3
   },
   "system_info": {
     "Platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
     "CUDA_Available": true,
     "Python": "3.11.13",
-    "XuanCe": "v1.3.3",
+    "XuanCe": "v1.4.0",
     "PyTorch": "2.7.1+cu126",
-    "PID": 2455311,
+    "PID": 2913704,
     "Rank": 0,
     "device": "cuda:0",
     "gpu_index": 0,
@@ -26,9 +26,9 @@
     "gpu_capability": "8.9"
   },
   "timestamps": {
-    "start_time": "2026-01-12T16:25:28.482977+08:00",
-    "best_model_time": "2026-01-12T16:30:04.893066+08:00",
-    "end_time": "2026-01-12T16:30:04.893088+08:00",
-    "elapsed_seconds": 276.41
+    "start_time": "2026-01-14T00:33:33.334384+08:00",
+    "best_model_time": "2026-01-14T02:27:18.872358+08:00",
+    "end_time": "2026-01-14T02:27:58.957608+08:00",
+    "elapsed_seconds": 6865.623
   }
 }
