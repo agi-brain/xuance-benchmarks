@@ -8,8 +8,8 @@ PYTHON=python
 
 ALGO="dqn"
 ENV="atari"
-ENV_ID="ALE/Breakout-v5"
-ENV_TAG="${ENV_ID//\//_}"   # ALE_Breakout-v5
+ENV_TAG="Breakout-v5"
+ENV_ID="ALE/${ENV_TAG}"
 CONFIG_PATH="${SCRIPT_DIR}/${ALGO}_atari.yaml"
 
 OUT_ROOT="${SCRIPT_DIR}/results/${ENV_TAG}"
