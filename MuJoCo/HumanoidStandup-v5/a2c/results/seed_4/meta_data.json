@@ -1,0 +1,34 @@
+{
+  "algo": "A2C",
+  "env": "MuJoCo",
+  "env_id": "HumanoidStandup-v5",
+  "dl_toolbox": "torch",
+  "device": "cuda:0",
+  "seed": 4,
+  "xuance_version": "v1.4.0",
+  "benchmark": {
+    "running_steps": 1000000,
+    "eval_interval": 5000,
+    "test_episodes": 3
+  },
+  "system_info": {
+    "Platform": "Linux-6.8.0-85-generic-x86_64-with-glibc2.35",
+    "CUDA_Available": true,
+    "Python": "3.12.0",
+    "XuanCe": "v1.4.0",
+    "PyTorch": "2.9.1+cu128",
+    "PID": 2762626,
+    "Rank": 0,
+    "device": "cuda:0",
+    "gpu_index": 0,
+    "gpu_name": "NVIDIA GeForce RTX 4090",
+    "cuda_version": "12.8",
+    "gpu_capability": "8.9"
+  },
+  "timestamps": {
+    "start_time": "2026-01-16T23:21:18.335474+08:00",
+    "best_model_time": "2026-01-17T01:05:06.002354+08:00",
+    "end_time": "2026-01-17T01:11:22.219883+08:00",
+    "elapsed_seconds": 6603.884
+  }
+}
