@@ -42,6 +42,20 @@ xuance-benchmarks/
 - Each algorithm-specific script (run_*.sh) defines an atomic benchmark.
 - Suite scripts (e.g. run_simple_spread_all.sh) run multiple algorithms sequentially on the same task.
 
+# Prepare Conda Environment and Install XuanCe
+
+Step 1: Create and activate conda environment (Python >= 3.8 is recommended)
+
+```bash
+conda create -n xuance_env python=3.12 && conda activate xuance_env
+```
+
+Step 2: Install XuanCe package
+
+```bash
+pip install xuance
+```
+
 # Running a Single Benchmark
 
 Each benchmark script runs the same task with multiple random seeds (default: 5).
