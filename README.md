@@ -1,4 +1,4 @@
-# XuanCe Benchmark
+# XuanCe Benchmark Results
 
 XuanCe provides standardized and reproducible benchmark scripts for evaluating deep reinforcement learning (DRL) and
 multi-agent reinforcement learning (MARL) algorithms. Benchmarks are designed with the following principles:
