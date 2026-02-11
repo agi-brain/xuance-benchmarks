@@ -6,7 +6,6 @@
   "render": true,
   "render_mode": "rgb_array",
   "fps": 50,
-  "test_mode": false,
   "device": "cuda:0",
   "distributed_training": false,
   "master_port": "12355",
@@ -59,8 +58,8 @@
   "test_steps": 10000,
   "algo": "sac",
   "env": "MuJoCo",
-  "config_path": "/home/wenzhang/xuance-benchmarks/MuJoCo/Walker2d-v5/sac/sac_Walker2d-v5.yaml",
-  "result_path": "/home/wenzhang/xuance-benchmarks/MuJoCo/Walker2d-v5/sac/results/seed_1",
+  "config_path": "/home/wzliu/xuance-benchmarks/MuJoCo/Walker2d-v5/sac/sac_Walker2d-v5.yaml",
+  "result_path": "/home/wzliu/xuance-benchmarks/MuJoCo/Walker2d-v5/sac/results/seed_1",
   "agent_name": "sac",
   "result_dir": "results/sac/Walker2d-v5",
   "episode_length": 1000

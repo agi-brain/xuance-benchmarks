@@ -1,0 +1,34 @@
+{
+  "algo": "PG",
+  "env": "MuJoCo",
+  "env_id": "Swimmer-v5",
+  "dl_toolbox": "torch",
+  "device": "cuda:0",
+  "seed": 4,
+  "xuance_version": "v1.4.0",
+  "benchmark": {
+    "running_steps": 1000000,
+    "eval_interval": 5000,
+    "test_episodes": 3
+  },
+  "system_info": {
+    "Platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+    "CUDA_Available": true,
+    "Python": "3.11.13",
+    "XuanCe": "v1.4.0",
+    "PyTorch": "2.7.1+cu126",
+    "PID": 1402916,
+    "Rank": 0,
+    "device": "cuda:0",
+    "gpu_index": 0,
+    "gpu_name": "NVIDIA GeForce RTX 4090",
+    "cuda_version": "12.6",
+    "gpu_capability": "8.9"
+  },
+  "timestamps": {
+    "start_time": "2026-02-05T16:42:17.441568+08:00",
+    "best_model_time": "2026-02-05T18:41:20.982393+08:00",
+    "end_time": "2026-02-05T21:58:10.564709+08:00",
+    "elapsed_seconds": 18953.123
+  }
+}

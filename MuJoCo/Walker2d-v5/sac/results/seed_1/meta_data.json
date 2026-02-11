@@ -12,23 +12,23 @@
     "test_episodes": 3
   },
   "system_info": {
-    "Platform": "Linux-6.8.0-85-generic-x86_64-with-glibc2.35",
+    "Platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
     "CUDA_Available": true,
-    "Python": "3.12.0",
+    "Python": "3.11.13",
     "XuanCe": "v1.4.0",
-    "PyTorch": "2.9.1+cu128",
-    "PID": 3177570,
+    "PyTorch": "2.7.1+cu126",
+    "PID": 1634384,
     "Rank": 0,
     "device": "cuda:0",
     "gpu_index": 0,
     "gpu_name": "NVIDIA GeForce RTX 4090",
-    "cuda_version": "12.8",
+    "cuda_version": "12.6",
     "gpu_capability": "8.9"
   },
   "timestamps": {
-    "start_time": "2026-01-18T19:30:06.745884+08:00",
-    "best_model_time": "2026-01-18T21:18:39.246523+08:00",
-    "end_time": "2026-01-18T21:19:49.884433+08:00",
-    "elapsed_seconds": 6583.139
+    "start_time": "2026-02-10T10:20:57.521329+08:00",
+    "best_model_time": "2026-02-10T13:38:55.187372+08:00",
+    "end_time": "2026-02-10T13:50:31.664211+08:00",
+    "elapsed_seconds": 12574.143
   }
 }
