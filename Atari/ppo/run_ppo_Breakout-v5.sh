@@ -6,7 +6,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="${SCRIPT_DIR}/../../"
 PYTHON=python
 
-ALGO="dqn"
+ALGO="ppo"
 ENV="atari"
 ENV_TAGs=(
   "AirRaid-v5"
@@ -102,3 +102,4 @@ for ENV_TAG in ENV_TAGs; do
     echo
   done
 done
+
