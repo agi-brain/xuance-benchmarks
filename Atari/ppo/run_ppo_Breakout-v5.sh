@@ -70,7 +70,7 @@ ENV_TAGs=(
   "Zaxxon-v5"
 )
 
-for ENV_TAG in ENV_TAGs; do
+for ENV_TAG in "${ENV_TAGs[@]}"; do
   ENV_ID="ALE/${ENV_TAG}"
   CONFIG_PATH="${SCRIPT_DIR}/${ALGO}_atari.yaml"
 
