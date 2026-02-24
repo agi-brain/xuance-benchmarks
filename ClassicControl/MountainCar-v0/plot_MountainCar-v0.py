@@ -10,17 +10,15 @@ sns.set(style="darkgrid")
 algorithm_legend = {
     'a2c': 'A2C',
     'c51': 'C51',
-    'ddqn': 'DoubleDQN',
+    'double_dqn': 'DoubleDQN',
     'dqn': 'DQN',
-    'drqn': 'DRQN',
-    'dueldqn': 'DuelingDQN',
-    'noisydqn': 'NoisyDQN',
+    'dueling_dqn': 'DuelingDQN',
+    'noisy_dqn': 'NoisyDQN',
     'perdqn': 'PerDQN',
     'pg': 'PG',
     'ppg': 'PPG',
     'ppo': 'PPO',
     'qrdqn': 'QRDQN',
-    'sac': 'SAC',
 }
 fig_title = "MountainCar-v0"
 

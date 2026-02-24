@@ -1,0 +1,34 @@
+{
+  "algo": "PPO_Clip",
+  "env": "Classic Control",
+  "env_id": "Acrobot-v1",
+  "dl_toolbox": "torch",
+  "device": "cuda:0",
+  "seed": 1,
+  "xuance_version": "v1.4.0",
+  "benchmark": {
+    "running_steps": 200000,
+    "eval_interval": 2000,
+    "test_episodes": 3
+  },
+  "system_info": {
+    "Platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+    "CUDA_Available": true,
+    "Python": "3.11.13",
+    "XuanCe": "v1.4.0",
+    "PyTorch": "2.7.1+cu126",
+    "PID": 33489,
+    "Rank": 0,
+    "device": "cuda:0",
+    "gpu_index": 0,
+    "gpu_name": "NVIDIA GeForce RTX 4090",
+    "cuda_version": "12.6",
+    "gpu_capability": "8.9"
+  },
+  "timestamps": {
+    "start_time": "2026-02-23T17:39:17.765788+08:00",
+    "best_model_time": "2026-02-23T17:39:40.615306+08:00",
+    "end_time": "2026-02-23T17:53:00.636087+08:00",
+    "elapsed_seconds": 822.87
+  }
+}

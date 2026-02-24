@@ -1,0 +1,34 @@
+{
+  "algo": "DQN",
+  "env": "Classic Control",
+  "env_id": "CartPole-v1",
+  "dl_toolbox": "torch",
+  "device": "cuda:0",
+  "seed": 5,
+  "xuance_version": "v1.4.0",
+  "benchmark": {
+    "running_steps": 200000,
+    "eval_interval": 2000,
+    "test_episodes": 3
+  },
+  "system_info": {
+    "Platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+    "CUDA_Available": true,
+    "Python": "3.11.13",
+    "XuanCe": "v1.4.0",
+    "PyTorch": "2.7.1+cu126",
+    "PID": 1750125,
+    "Rank": 0,
+    "device": "cuda:0",
+    "gpu_index": 0,
+    "gpu_name": "NVIDIA GeForce RTX 4090",
+    "cuda_version": "12.6",
+    "gpu_capability": "8.9"
+  },
+  "timestamps": {
+    "start_time": "2026-02-13T14:32:07.711954+08:00",
+    "best_model_time": "2026-02-13T14:36:12.082623+08:00",
+    "end_time": "2026-02-13T14:42:37.589891+08:00",
+    "elapsed_seconds": 629.878
+  }
+}

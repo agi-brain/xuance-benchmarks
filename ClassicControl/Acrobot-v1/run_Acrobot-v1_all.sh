@@ -14,7 +14,6 @@ SCRIPTS=(
   "${ROOT_DIR}/c51/run_c51_Acrobot-v1.sh"
   "${ROOT_DIR}/double_dqn/run_ddqn_Acrobot-v1.sh"
   "${ROOT_DIR}/dqn/run_dqn_Acrobot-v1.sh"
-  "${ROOT_DIR}/drqn/run_drqn_Acrobot-v1.sh"
   "${ROOT_DIR}/dueling_dqn/run_dueldqn_Acrobot-v1.sh"
   "${ROOT_DIR}/noisy_dqn/run_noisydqn_Acrobot-v1.sh"
   "${ROOT_DIR}/perdqn/run_perdqn_Acrobot-v1.sh"
@@ -22,7 +21,6 @@ SCRIPTS=(
   "${ROOT_DIR}/ppg/run_ppg_Acrobot-v1.sh"
   "${ROOT_DIR}/ppo/run_ppo_Acrobot-v1.sh"
   "${ROOT_DIR}/qrdqn/run_qrdqn_Acrobot-v1.sh"
-  "${ROOT_DIR}/sac/run_sac_Acrobot-v1.sh"
 )
 
 
